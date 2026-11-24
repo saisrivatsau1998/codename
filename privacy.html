@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy — Codename</title><style>body{margin:0;font:17px/1.65 system-ui,-apple-system,'Segoe UI','Hiragino Sans','Noto Sans JP','Noto Sans Devanagari',sans-serif;color:#1f2328;background:#fafafa}
+main{max-width:760px;margin:0 auto;padding:48px 24px 80px} header{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+header a{color:inherit;text-decoration:none;font-weight:750;font-size:22px} h1{font-size:34px;line-height:1.2;margin:.2em 0 .5em} h2{font-size:21px;margin-top:1.8em}
+a{color:#4f46e5} code{background:#eef2ff;color:#3730a3;padding:1px 6px;border-radius:6px;font-size:.92em} .muted{color:#6b7280}
+.hero{background:linear-gradient(135deg,#312e81,#4f46e5 50%,#0891b2);color:#fff;border-radius:20px;padding:36px 32px;margin-bottom:28px}
+.hero h1{color:#fff;margin-top:0} .hero p{opacity:.95;font-size:18px;margin:0}
+.demo{background:#fff;color:#1f2328;border-radius:12px;padding:12px 16px;margin-top:18px;display:inline-block}
+.btn{display:inline-block;background:#4f46e5;color:#fff;text-decoration:none;border-radius:10px;padding:10px 18px;font-weight:600;margin-right:10px}
+footer{margin-top:48px;font-size:14px;color:#6b7280}</style></head><body><main><header><svg viewBox="0 0 128 128" width="44" height="44" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs><rect x="8" y="8" width="112" height="112" rx="28" fill="url(#g)"/><path d="M46 36 H34 V92 H46 M82 36 H94 V92 H82" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><rect x="50" y="54" width="28" height="20" rx="4" fill="#fff"/></svg><a href="index.html">Codename</a></header><h1>Privacy Policy — Codename (Beta)</h1>
+<p><em>Last updated: November 2026</em></p>
+<p><strong>Short version: everything happens inside Chrome on your own device. The extension has no server, makes no network requests, and does not collect, sell or share any of your data.</strong></p>
+<h2>Where it runs</h2>
+<p>Only on chatgpt.com, chat.openai.com, claude.ai and gemini.google.com. It does nothing on any other website.</p>
+<h2>What it reads, and why</h2>
+<p>To find private details (names, emails, phone numbers, ID numbers, bank details, passwords, keys and similar), the extension reads, <strong>on your device</strong>:</p>
+<ul>
+<li><strong>What you type</strong> in the chat box. It checks as you type and hides the details <strong>before you send</strong> (when you press Enter or the Send button). Note: while you type, the text is in the website's own chat box, as it would be without the extension.</li>
+<li><strong>What you paste.</strong> Pasted text is checked and the private details are hidden <strong>before the website receives the paste</strong>. If the clipboard also holds a picture or formatted text (for example cells copied from Excel), only the cleaned plain text is pasted.</li>
+<li><strong>Files you attach</strong> (📎 button, drag and drop, or pasting a file): text files, CSV, Word, Excel, PowerPoint and PDF. The file is read on your device, and a <strong>cleaned copy is created on your device</strong> and handed to the website instead of the original. PDFs that contain private details are handed over as a cleaned text file. Files the extension started to check but could not finish are <strong>not uploaded</strong>. Pictures and other files it cannot read are uploaded unchanged, with a warning (or blocked, if you turn on "Block files I can't check").</li>
+<li><strong>The AI's replies</strong>, to show the real values again <strong>on your screen only</strong>. The real values are written into the page you are looking at, so other software running in that page could see them there. The extension marks this text "do not translate" so Chrome's translation feature does not send it out. You can switch this off with the "Real names" switch.</li>
+</ul>
+<h2>What it stores, and where</h2>
+<ul>
+<li><strong>The list linking placeholders to real values</strong> (for example <code>[PERSON_1]</code> → the real name) is kept in Chrome's <strong>session storage</strong> on your device. It is deleted when you close Chrome, or when you press ⚙ → "Forget mappings".</li>
+<li><strong>Your settings</strong> and your <strong>word lists</strong> in ⚙ are kept in Chrome's <strong>local storage</strong> on your device until you change or delete them. This includes words you mark <strong>"Always"</strong> (never hide) in the review list. Those words are stored <strong>permanently</strong> until you remove them in ⚙.</li>
+<li>Nothing is stored anywhere else. There are no accounts, analytics, cookies, tracking or ads.</li>
+</ul>
+<h2>What it never does</h2>
+<ul>
+<li>It never sends your text, files or the placeholder list to us or to anyone else. The extension has no network code. The PDF reader (Mozilla pdf.js) and its font files are part of the extension and load from your device.</li>
+<li>It never sends a message for you. You always press Send yourself.</li>
+</ul>
+<h2>Permissions</h2>
+<ul>
+<li><code>storage</code>: to keep the settings and the placeholder list described above, on your device.</li>
+<li><code>clipboardWrite</code>: so the "Copy" button can copy the reply (with real names) when you click it.</li>
+<li>Access to the four AI websites listed above, through the extension's content script.</li>
+</ul>
+<h2>Important</h2>
+<p>The extension reduces risk but cannot catch every private detail. Always read your message before you press Send. The AI service you use (OpenAI, Anthropic, Google) handles what you send under its own privacy policy. Your organisation remains responsible for the personal data it handles (for example under India's DPDP Act or Japan's APPI). This tool helps, but does not replace, those obligations.</p>
+<h2>Contact</h2>
+<p>aiprivacyshield.help@gmail.com</p><footer>Codename · aiprivacyshield.help@gmail.com · <a href="privacy.html">Privacy policy</a></footer></main></body></html>
